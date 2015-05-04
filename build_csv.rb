@@ -7,7 +7,7 @@ class BuildCSV
   @CSV_data
 
   def initialize(recipient_num, email_domain)
-    @recipient_count = recipient_num
+    @recipient_count = recipient_num.to_i
     @email_domain = email_domain
     @CSV_data = Array.new
     build_csv_data
