@@ -3,6 +3,7 @@ require 'json'
 
 require_relative 'Setup'
 require_relative 'nlvxcsv'
+require_relative 'build_csv'
 
 #TODO 1) Need to read the header rows from the CSV
 #TODO 2) Identify the standard fields (firstname, lastname, email)
