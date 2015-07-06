@@ -17,3 +17,6 @@ DEPENDENCIES
   dotenv
   json
   rest-client
+
+BUNDLED WITH
+   1.10.3

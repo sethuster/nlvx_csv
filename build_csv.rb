@@ -29,7 +29,7 @@ class BuildCSV
 
   def build_csv_data
     while @recipient_count > 0
-      recipient_info = {:first_name => "auto_#{@recipient_count}_firstName", :last_name => "auto_#{@recipient_count}_lastname", :email => "auto_#{@recipient_count}_#{@email_domain}"}
+      recipient_info = {:first_name => "auto_#{@recipient_count}_firstName", :last_name => "auto_#{@recipient_count}_lastname", :email => "auto_#{@recipient_count}@#{@email_domain}"}
       @CSV_data.push(recipient_info)
       @recipient_count -= 1
     end

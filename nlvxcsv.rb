@@ -4,6 +4,7 @@ class Nlvxcsv
   #key (number of recipients, goseg address)
   #status (email domain, list)
   def initialize(arg)
+    setup = Setup.new
     @user_input = arg
     @user_input_hash = {
         :action => @user_input[0],
@@ -18,7 +19,7 @@ class Nlvxcsv
       makecsv = BuildCSV.new(@user_input_hash[:key], @user_input_hash[:status])
       #puts @user_input_hash[:key] + @user_input_hash[:status]
     end
-    if @user_input_hash[:actoin] == 'u'
+    if @user_input_hash[:action] == 'u'
       #Call the upload CSV class
     end
   end
