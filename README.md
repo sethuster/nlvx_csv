@@ -10,9 +10,10 @@ b = build CSV only
 u = upload CSV <Requires env file>  
 Num = number of recipients to create  
 domain = domain of recipient email  
+filename = the name of the csv file to be generated  
 
-This will build 420 recipients with @example.com:  
-ruby start.rb b 420 @example.com  
+This will build 420 recipients called example.csv with @example.com:  
+ruby start.rb b 420 @example.com  example
 
 ###Enjoy!
 
