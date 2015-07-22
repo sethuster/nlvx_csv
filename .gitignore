@@ -8,6 +8,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/generated_csvs/
 
 ## Specific to RubyMotion:
 .dat*
@@ -32,7 +33,7 @@ build/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
-
+.DS_Store
 #Omitted files - we never want to upload these
 test.csv
 .env
