@@ -8,6 +8,7 @@ CD into nlvx_csv directory.
 Parameters:
 b = build CSV only  
 u = upload CSV <Requires env file>  
+s = single column CSV file
 Num = number of recipients to create  
 domain = domain of recipient email  
 filename = the name of the csv file to be generated  

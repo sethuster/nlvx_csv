@@ -16,13 +16,7 @@ class Nlvxcsv
   end
 
   def process_args
-    if @user_input_hash[:action] == 'b'
-      makecsv = BuildCSV.new(@user_input_hash[:key], @user_input_hash[:status], @user_input_hash[:filename])
-      #puts @user_input_hash[:key] + @user_input_hash[:status]
-    end
-    if @user_input_hash[:action] == 'u'
-      #Call the upload CSV class
-    end
+    makecsv = BuildCSV.new(@user_input_hash[:action], @user_input_hash[:key], @user_input_hash[:status], @user_input_hash[:filename])
   end
 
 
