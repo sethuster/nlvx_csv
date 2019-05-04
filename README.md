@@ -1,4 +1,5 @@
-# NLVX CSV Creator
+# Ruby-CSV-Uploader
+This was built as a testing tool for early versions of SendGrid's Marketing Campaigns application.
 Simple CSV Creator and Parser
 
 ## How to Use
